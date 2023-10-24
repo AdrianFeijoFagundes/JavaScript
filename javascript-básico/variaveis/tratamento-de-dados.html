@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1> AULA 06 - Tratamento de dados - JavaScript - Curso em vídeo </h1>
+    
+    <script>
+        //String
+        function perguntas() {
+            let nome = window.prompt('Qual seu nome?');
+            let idade = window.prompt('Qual sua idade?');
+
+            window.alert(`Nome:${nome}, Idade:${idade}`);
+        }    
+        // CONVERTENDO STRING PARA NUMBER
+        function soma() { 
+            let num1 = Number(window.prompt('Digite um número:')) 
+            let num2 = Number(window.prompt('Digite outro número:'))
+            //Number() converte o valor para number
+            let soma = num1 + num2
+            window.alert(soma)
+            window.alert("Tipo das váriaveis num1: " + typeof num1 + " num2: " + typeof num2 + " soma: " + typeof soma)
+        }
+        function conc() {
+            let num1 = window.prompt('Digite um número:') 
+            let num2 = window.prompt('Digite outro número:')
+            
+            let soma = num1 + num2                  // retorna as strings concatenadas
+            let soma2 = Number(num1) + Number(num2) // vai retornar a soma
+            window.alert(soma + " " + soma2)
+            window.alert("Tipo das váriaveis num 1: " + typeof num1 + " num2: " + typeof num2 + " soma: " + typeof soma + " soma2: " + typeof soma2)
+        }
+        //CONVERTENTO NUMBER PARA STRING
+        function n_para_str() {
+            let num = String(window.prompt('Digite um número:')) // transforma em string de maneira forçada
+            window.alert(num + " "+ typeof num)
+        }
+        </script>
+</body>
+</html>
