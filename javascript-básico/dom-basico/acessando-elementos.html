@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Manipulando o Dom</h1>
+    <div>
+        <p>document.getElementsByTagName()</p>
+        <p id="test">document.getElementById()</p>
+        <p name="msg">document.getElementsByName()</p> <!-- Não consegui usar isso-->
+        <p class="classe">document.getElementsByClassName()</p> <!-- Não consegui usar isso -->
+        <p class="query">document.querySelector()</p>
+    </div>
+    <div>
+        <p>São todas formas de acessar o DOM</p>
+    </div>
+    <script>
+        let tag1 = window.document.getElementsByTagName('p')[0] 
+        let getbyId = window.document.getElementById('test') 
+        let query = window.document.querySelector('.query')  
+        
+        tag1.innerHTML += " Isso foi escrito acessando o DOM."
+        getbyId.innerHTML += " Isso foi escrito acessando o DOM."
+        
+        query.innerHTML += " Isso foi escrito acessando o DOM."
+    </script>
+</body>
+</html>
