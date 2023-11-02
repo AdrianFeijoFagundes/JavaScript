@@ -1,5 +1,7 @@
+
 let num;
 // Atribuição
+// =    "coloca" um valor na variável
 console.log("variavél antes de usar o operador de atribuição:")
 console.log(num)
 console.log(" ")

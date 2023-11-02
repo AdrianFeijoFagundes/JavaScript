@@ -1,3 +1,13 @@
+/*
+ Operadores aritméticos:
+ +      adição
+ -      subtração
+ *      multiplicação
+ /      divisão
+ **     potencia
+ ++     incremento  seria a mesma coisa que     x = x + 1
+ --     decremento  seria a mesma coisa que     y = y - 1
+*/
 let num1 = 4
 let num2 = 3
 
