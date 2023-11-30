@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos de entrada e saída</title>
+</head>
+<body>
+    <p>Para entrada de dados existem algumas possibilidades, a forma mais simples é com o método <code>prompt()</code>, mas de forma geral a entrada de dados vem atráves de "elementos"" dos formulários em HTML</p>
+    <p>Para saída de dados existem algumas várias possibilidades:</p>
+    <ul>
+        <li>window.alert</li>
+        <li>document.write</li>
+        <li>console.log</li>
+        <li>.innerHTML</li>
+        <li>.innerText</li>
+    </ul>
+    <p>O importante é não se prender a isso no começo, aprender formas simples de entrada e saida, para entender melhor é bom ter um conhecimento básico sobre o DOM.</p>
+    <p>Aqui vou usar uma forma simples que é usando o <code>prompt()</code> para entrada de dados e o <code>alert()</code> para saída de dados.</p>
+    <button class="button">Clique Aqui</button>
+
+    <script>
+        const button = document.querySelector("button");
+
+        button.addEventListener('click',() => {
+            const name = window.prompt('Qual seu nome?')
+            alert('Olá ' + name + '!')
+            
+        })
+    </script>
+</body>
+</html>

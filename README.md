@@ -34,4 +34,4 @@ explicações sobre **HTML** e **CSS**.
 
 ## OBSERVAÇÕES
 
-Estou fazendo commits nesse repositório aos poucos, caso entre em alguma pasta e ela esteja vazia é por esse repositório estar com atualização.
+Repositório em constante atualização.
